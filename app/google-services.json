@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225378659022",
+    "project_id": "chat-1669b",
+    "storage_bucket": "chat-1669b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225378659022:android:0c66374f7b0fa2bd71fe9f",
+        "android_client_info": {
+          "package_name": "sardor.telegram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAupgavRWtM1CEy1qsv0M8GQN6rZB9zfBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
