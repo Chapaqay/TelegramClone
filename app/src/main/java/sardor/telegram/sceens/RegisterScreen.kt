@@ -240,7 +240,7 @@ fun RegisterScreen(navController: NavController){
         Button(
             enabled = fullName.value.isNotEmpty() && username.value.isNotEmpty() && password.value.isNotEmpty() && !usernameError.value && !fullNameError.value && !passwordError.value,
             onClick = {
-                val user = User(username.value, password.value, fullName.value, "","")
+                val user = User(username.value.trim(), password.value.trim(), fullName.value.trim(), "","")
                 Firebase.register(user, context) { success ->
                     if (success) {
                         Toast.makeText(context, "Successfully signed up", Toast.LENGTH_SHORT).show()

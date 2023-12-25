@@ -109,7 +109,7 @@ fun LoginScreen(navController: NavController) {
         Button(
             onClick = {
                 if (username.value.isNotEmpty() && password.value.length > 7) {
-                    Firebase.logIn(username.value, password.value) {
+                    Firebase.logIn(username.value.trim(), password.value.trim()) {
                         if (it == null) {
                             Toast.makeText(
                                 context,
